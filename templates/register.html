@@ -1,0 +1,16 @@
+{% extends "layout.html"%}
+
+{% block content %}
+<h1> Registrar usuario </h1>
+<form action="" method="post">
+    <label for="username"> usuario</label>
+    <input type="text" name= "username" id="username" required>
+    <br><br>
+    <label for="password"> Contraseña</label>
+    <input tupe="password" name="password" id="password" required>
+    <br><br>    
+    <input type="submit"  value="Register" >    
+    
+</form>
+
+{% endblock %}
